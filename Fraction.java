@@ -4,13 +4,13 @@ public class Fraction {
     public int denominateur;
     public int numerateur;
 
-    public Fraction(int A, int b) {
-        this.denominateur = A;
-        this.numerateur = b;
+    public Fraction(int d, int n) {
+        this.denominateur = d;
+        this.numerateur = n;
     }
-    public Fraction(int A){
+    public Fraction(int n){
         this.denominateur=1;
-        this.numerateur=A;
+        this.numerateur=n;
     }
     public Fraction(){
         this.denominateur=1;
@@ -30,7 +30,7 @@ public class Fraction {
     }
 
     public double Resultfraction (){
-        double i = this.denominateur/this.numerateur;
+        double i = this.numerateur/this.denominateur;
         return(i);
     }
 

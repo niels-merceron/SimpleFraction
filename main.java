@@ -2,8 +2,9 @@
 public class main {
     public static void main(String[] args) {
 
-        Fraction C = new Fraction(4, 5);
+        Fraction C = new Fraction(2, 1);
         assert C.GetDenom() != 0;
-        //System.out.println("denom :" + C.GetDenom() + " num:" + C.Getnum() + "\n");
+        
+        System.out.println( "result "+C.Resultfraction()+"\n");
     }
 }
