@@ -30,8 +30,9 @@ public class Fraction {
     }
 
     public double Resultfraction (){
-        double i = this.numerateur/this.denominateur;
-        return(i);
+        double d =this.denominateur;
+        double n = this.numerateur;
+        return(n/d);
     }
 
 }
