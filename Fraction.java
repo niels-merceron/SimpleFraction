@@ -25,14 +25,35 @@ public class Fraction {
         return(this.numerateur);
     }
 
+    public void Setnum(int n){
+        this.numerateur=n;
+    }
+
+    public void Setdeno(int n){
+        this.denominateur=n;
+    }
+
     public String toString(){
-        return("\n je suis une fraction ");
+        return("je suis une fraction : "+this.Getnum()+"/"+this.GetDenom()+"\n");
     }
 
     public double Resultfraction (){
         double d =this.denominateur;
         double n = this.numerateur;
         return(n/d);
+    }
+
+    public Fraction addorlessFraction(Fraction B,boolean A){
+        Fraction C =new Fraction();
+
+        C.Setdeno(this.GetDenom()*B.GetDenom());
+        if(A==true){
+        C.Setnum((this.Getnum()*B.GetDenom())+(B.Getnum()*this.GetDenom()));
+        }
+        else{
+            C.Setnum((this.Getnum()*B.GetDenom())-(B.Getnum()*this.GetDenom()));
+        }
+        return(C);
     }
 
 }
