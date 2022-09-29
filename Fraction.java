@@ -9,6 +9,14 @@ public class Fraction {
         num = b;
     }
 
+    public int GetDenom(){
+        return(denom);
+    }
+
+    public int Getnum(){
+        return(num);
+    }
+
     public String toString(){
         return("\n je suis une fraction \n");
     }
