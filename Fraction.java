@@ -1,10 +1,6 @@
 // Your First Program
 
-class Fraction{
+public class Fraction{
     
 }
 
-
-class main{
-
-}
