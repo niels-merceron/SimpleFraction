@@ -5,8 +5,8 @@ public class Fraction {
     private int num;
 
     public Fraction(int A, int b) {
-        denom = A;
-        num = b;
+        this.denom = A;
+        this.num = b;
     }
 
     public int GetDenom(){
