@@ -18,6 +18,6 @@ public class Fraction {
     }
 
     public String toString(){
-        return("\n je suis une fraction \n");
+        return("\n je suis une fraction ");
     }
 }
