@@ -180,23 +180,23 @@ Vous pouvez choisir l'IDE/éditeur de texte de votre choix.
 Pour réaliser cette exercice, vous devez bien évidemment vous reporter à la documentations de l'IDE ([IntelliJ IDEA](https://www.jetbrains.com/help/idea/discover-intellij-idea.html#developer-tools), [Visual Studio Code](https://code.visualstudio.com/docs), [Eclipse](https://help.eclipse.org/2020-09/index.jsp), …).
 
 1. Quels IDE ou éditeurs de texte utilisez-vous pour le développement Java ?
-    > Répondre ici
+    > Visual studio code
 
     Pour la suite, ne considérez que l'un de vos choix.
 1. Comment vérifier/définir que l'encodage utilisé est *UTF-8* ?
-    > Répondre ici
+    > il est stipulé en haut du fichier ou dans les propriétées du fichiers 
 1. Comment choisir le JDK à utiliser dans un projet ?
-    > Répondre ici
+    > vscode s'en ai occuper mais je sais que je peux le setup via un .json
 1. Comment préciser la version Java des sources dans un projet ?
-    > Répondre ici
+    > on peut le préciser dans la doc java
 1. Comment ajouter une bibliothèque externe dans un projet ?
-    > Répondre ici
+    > téléchargment + import dans le fichier voulu
 1. Comment reformater un fichier source Java ?
-    > Répondre ici
+    > on recompile le projet pour générer un nouveau fichier source
 1. Comment trouver la déclaration d'une variable ou méthode ?
-    > Répondre ici
+    > on peut utiliser Grep
 1. Comment insérer un bloc de code prédéfini (*snippet*) ?
-    > Répondre ici
+    > 
 1. Comment renommer une classe dans l'ensemble du projet ?
     > Répondre ici
 1. Comment exécuter le programme en lui passant un paramètre en ligne de commande ?

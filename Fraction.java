@@ -56,4 +56,13 @@ public class Fraction {
         return(C);
     }
 
+    public boolean compare(Fraction B){
+        if(this.Resultfraction()==B.Resultfraction()){
+            return(true);
+        }
+        else{
+            return(false);
+        }
+    }
+
 }
