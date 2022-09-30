@@ -196,12 +196,12 @@ Pour réaliser cette exercice, vous devez bien évidemment vous reporter à la d
 1. Comment trouver la déclaration d'une variable ou méthode ?
     > on peut utiliser Grep
 1. Comment insérer un bloc de code prédéfini (*snippet*) ?
-    > 
+    > je commence a écrire le début du code voulu puis j'appui sur entré
 1. Comment renommer une classe dans l'ensemble du projet ?
-    > Répondre ici
+    > ctrl+f2 et écrire la variable qu'on veut changer
 1. Comment exécuter le programme en lui passant un paramètre en ligne de commande ?
-    > Répondre ici
+    > java "nom du programme" "paramètre de la ligne"
 1. Comment déboguer le programme en visualisant le contenu d'une ou plusieurs variables ?
-    > Répondre ici
+    > on ouvre la console de debug et on met de break point
 1. Quels paramètres ou fonctionnalités vous semblent particulièrement importants/utiles pour le développement Java ?
-    > Répondre ici
+    > je pense que les fonctionnalités d'hérédité et que la non manipulation de pointer est sympa  
