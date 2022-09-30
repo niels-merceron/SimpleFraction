@@ -150,7 +150,7 @@ Donnez un exemple.
         ```
     1. afficher les lignes du fichier `Main.java` contenant la chaîne `uneVariable`
         ```bash
-        grep
+        grep -n
         ```
     1. afficher récursivement les fichiers `.java` contenant la chaîne `uneVariable`
         ```bash
@@ -158,21 +158,21 @@ Donnez un exemple.
         ```
     1. trouver les fichiers (pas les répertoires) nommés `README.md` dans une arborescence de répertoires
         ```bash
-        # Répondre ici
+        find
         ```
     1. afficher les différences entre deux fichiers textes
         ```bash
-        # Répondre ici
+        diff.
         ```
 1. Expliquez en une ou deux phrases le rôle de ces commandes et dans quel contexte elles peuvent être utiles pour un développeur.
     * `ssh`
-        > Répondre ici
+        > c'est un résultat de protocole de cryptage permettant l'accés a des comptes (dans notre cas github)
     * `screen`/`tmux`
-        > Répondre ici
+        > tmux/ screen sert a avoir plusieurs terminaux
     * `curl`/[HTTPie](https://httpie.org/)
-        > Répondre ici
+        > transfert de donné
     * [jq](https://stedolan.github.io/jq/)
-        > Répondre ici
+        > c'est pour json un fichier
 
 ### Découverte de votre *IDE*
 Dans cet exercice, vous expliquerez en quelques phrases comment vous réalisez les actions ci-dessous dans votre IDE.
